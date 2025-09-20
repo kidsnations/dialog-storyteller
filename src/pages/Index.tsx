@@ -13,14 +13,6 @@ const Index = () => {
   return (
     <main className="min-h-screen py-12">
       <div className="container mx-auto flex flex-col items-center justify-center space-y-8">
-        <header className="text-center mb-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Professional DevOps Portfolio
-          </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Showcasing technical expertise and commitment to excellence
-          </p>
-        </header>
 
         <div className="w-full flex flex-col items-center space-y-8">
           {dialogs.map((dialog, index) => (
