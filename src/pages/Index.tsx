@@ -41,6 +41,15 @@ const Index = () => {
             delay={(dialogs.length + 1) * 3000} 
             imageUrl={diagramUrl}
           />
+
+          <DialogCard 
+            delay={(dialogs.length + 2) * 3000}
+            className="w-full"
+          >
+            <p className="text-lg md:text-xl leading-relaxed text-center font-medium">
+              Ready to contribute to your DevOps initiatives with proven expertise in infrastructure automation, containerization, and cloud migration.
+            </p>
+          </DialogCard>
         </div>
       </div>
     </main>
